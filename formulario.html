@@ -27,7 +27,7 @@
   </li>
   </ul>
 </nav>
-  <form action="controlador">
+  <form action="controlador" method="post" enctype="">
   <div>
  <input type="number" name="edad" id="" min="0" max="100" step="1" values="5"   >
   </div>
@@ -61,23 +61,45 @@
  </div>
  <div>
 <label for="telefono">ingrese su numero de telefono</label>
-  <input type="telefono" id="telefono" pattern="{0,9}"  required>
+  <input type="telefono" id="telefono" pattern=[0,-9]{0,10}  required>
  </div>
  
  <div>
- <label form="ciudad">>seleecione la ciudad</label>
+ <label form="ciudad">seleecione la ciudad</label>
   <select name="ciudad" id ="ciudad" disabled>
     <option value="1">Giron</option>
     <option value="2">bucarmanga</option>
     <option value="3" selected>florida</option>
   <option value="4">pidecuesta</option>
   </select>
- 
+ <button type="submit">guardar</button>
 
  </div>
 
+<input type="radio" name="genero" id="mujer">
+<label for="mujer">femenino</label>
+<input type="radio" name="genero" id="hombre">
+<label for="hombre">masculino</label>
+<div>
 
-</form>
+  <input type="checkbox" name="html" id="html">
+<label for="html">html</label>
+
+ <input type="checkbox" name="html" id="java">
+<label for="java">java</label>
+
+ <input type="checkbox" name="css" id="css">
+<label for="java">css</label>
+</div>
+<div>
+
+
+<label for="avatar">perfil</label>
+<input type="file" name ="avatar" id="avatar" accept="image/*" multiple>
+
+</div>
+
+
   
 </body>
 </html>
