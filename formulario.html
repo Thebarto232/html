@@ -6,6 +6,27 @@
   <title>Document</title>
 </head>
 <body>
+  <nav>
+  <ul>
+  <li>
+
+    <a href="index.html">index</a>
+  </li>
+  <li>
+
+    <a href="archivo1.html">archivo1</a>
+
+  </li>
+  <li>
+    <a href="archivo2.html">archivo2</a>
+
+  </li>
+
+  <li>
+    <a href="formulario.html">formulario</a>
+  </li>
+  </ul>
+</nav>
   <form action="controlador">
   <div>
  <input type="number" name="edad" id="" min="0" max="100" step="1" values="5"   >
@@ -40,7 +61,7 @@
  </div>
  <div>
 <label for="telefono">ingrese su numero de telefono</label>
-  <input type="telefono" id="telefono" required>
+  <input type="telefono" id="telefono" pattern="{0,9}"  required>
  </div>
  
 
