@@ -11,23 +11,29 @@
                         <h1><center>formulario </center></h1>
                         <form action="controlador" method="post" enctype="">
                         <div>
-                          <center><label for="name">ingresa nombre</label>
+                          <center><label for="name"> nombre</label>
                         <input type="text" id="txt" required pattern="[A-Za-z]{3}"></center>
                         </div>
-                        <center><label for="apellido">ingresar apellidos</label>
-                          <input type="text" id="txt"required pattern="[A-Za-z]{3}" </center>
+                        <center><label for="apellido"> apellidos</label>
+                          <input type="text" id="txt"required pattern="[A-Za-z]{6}" </center>
                         </div>
                         <div>
-                        <center><label for="edad">ingrese edad</label>
+                        <center><label for="edad"> edad</label>
                             <input type="number" id="" min="0" max="100" step="1" values="5"></center>
                           </div>
                           <div>
                             
                               <center>
 
-                            <label for="telefono">numero de telefono</label>
+                            <label for="telefono"> telefono</label>
                 <input type="telefono" id="telefono" required></center>
                 <div>
+                  <div>
+                    <label for="email">gmail</label>
+                  <input type="email" id="email" required pattern=".+@email\.com" >
+                  </div>
+
+
                   <center><input type="radio" name="genero" id="mujer">
 <labe for="mujer">femenino</labe l>
 <input type="radio" name="genero" id="hombre">
