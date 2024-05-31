@@ -12,10 +12,10 @@
                         <form action="controlador" method="post" enctype="">
                         <div>
                           <center><label for="name">ingresa nombre</label>
-                        <input type="text" id="name" required autocomplete="name"></center>
+                        <input type="text" id="txt" required pattern="[A-Za-z]{3}"></center>
                         </div>
                         <center><label for="apellido">ingresar apellidos</label>
-                          <input type="text" name="apellido" id="apellido" required autocomplete="on"></center>
+                          <input type="text" id="txt"required pattern="[A-Za-z]{3}" </center>
                         </div>
                         <div>
                         <center><label for="edad">ingrese edad</label>
@@ -47,7 +47,7 @@
                         <div>
                           <br><center><h2>ciudad de preferencia</h2></center>
                           <center><label for="ciudad">ingrese la ciudad</label>
-                          <select name="ciudad" id ="ciudad" >
+                          <select name="ciudad" id ="ciudad" disabled >
                             <option value="1">Giron</option>
                             <option value="2">bucarmanga</option>
                             <option value="3" selected>florida</option>
@@ -70,6 +70,8 @@
                             <center> <br><label for="avatar">perfil</label>
                             <input type="file" name ="avatar" id="avatar" accept="image/*" multiple></center>
                           </div>
+                          </form>
+                      
                         
 
                          
