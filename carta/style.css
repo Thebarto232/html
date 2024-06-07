@@ -1,0 +1,27 @@
+p >spam {
+  color 
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: 10px;
+  margin-right: 20px;
+
+}
+
+
+.caja{
+
+
+  width: 600px;
+  height: 600px;
+  background: crimson;
+  margin: 80px;
+  border: solid 5px #000;
+  padding-top:120px;
+  padding-right: 120px; 
+
+
+} 
+ 
